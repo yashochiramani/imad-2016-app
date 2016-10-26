@@ -15,7 +15,7 @@ app.get('/article-one', function (req, res) {
 
 
 app.get('/iit', function (req, res) {
-  res.send('These are various ways to crack IITJEE by yash ochiramani.');
+   res.sendFile(path.join(__dirname, 'ui', 'iit.html'));
 });
 
 app.get('/ui/style.css', function (req, res) {
