@@ -13,12 +13,9 @@ app.get('/article-one', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'article-one.html'));
 });
 
-app.get('/iit', function (req, res) {
-  res.send('yash ochiramani's mantras to crack IITJEE');
-});
 
-app.get('/photo', function (req, res) {
-  res.send('These are photos of yash ochiramani.');
+app.get('/iit', function (req, res) {
+  res.send('These are various ways to crack IITJEE by yash ochiramani.');
 });
 
 app.get('/ui/style.css', function (req, res) {
