@@ -11,6 +11,10 @@ body {
     font-size: 300%;
 }
 
+.text-average {
+    font-size: 150%;
+}
+
 .bold {
     font-weight: bold;
 }
